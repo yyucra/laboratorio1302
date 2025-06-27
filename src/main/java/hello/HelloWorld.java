@@ -5,7 +5,7 @@ import org.joda.time.LocalTime;
 public class HelloWorld {
   public static void main(String[] args) {
     LocalTime currentTime = new LocalTime();
-    System.out.println("The current local time Lima Peru is:  " + currentTime);
+    System.out.println("The current local time Lima Peru Sin min is:  " + currentTime);
     Greeter greeter = new Greeter();
     System.out.println(greeter.sayHello());
   }
