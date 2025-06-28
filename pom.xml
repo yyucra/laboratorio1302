@@ -61,5 +61,9 @@
 			<name>GitHub Packages</name>
 			<url>https://maven.pkg.github.com/yyucra/laboratorio1302</url>
 		</repository>
+
+		<snapshots>
+			<enabled>true</enabled>
+		</snapshots>
   	</distributionManagement>
 </project>
