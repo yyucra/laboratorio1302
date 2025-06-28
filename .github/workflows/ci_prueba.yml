@@ -31,11 +31,10 @@ jobs:
 
   publish_code:
     runs-on: ubuntu-latest
-     needs: test_code
+    needs: test_code
     permissions:
       contents: read
       packages: write
-
     steps:
     - uses: actions/checkout@v4
     - name: Set up JDK 11
