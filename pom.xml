@@ -56,10 +56,14 @@
 		</plugins>
 	</build>
  <distributionManagement>
-    <repository>
-      <id>github</id>
-      <name>GitHub Packages</name>
-      <url>https://maven.pkg.github.com/yyucra/helloworld</url>
-    </repository>
+	 <repository>
+		 <id>github</id>
+		 <name>GitHub Packages</name>
+		 <url>https://maven.pkg.github.com/yyucra/helloworld</url>
+	 </repository>
+	<snapshotRepository>
+		<id>github</id>
+		<url>https://maven.pkg.github.com/yyucra/helloworld</url>
+	</snapshotRepository>
   </distributionManagement>
 </project>
